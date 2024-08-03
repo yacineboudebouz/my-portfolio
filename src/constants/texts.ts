@@ -1,0 +1,2 @@
+export const bio =
+  "I am a software engineer with a passion for creating and developing software applications. I have experience in developing mobile applications using flutter and riverpod. I am also familiar with React and Node js frameworks such as nest js and express js I am a quick learner and I am always looking for new challenges. I am currently looking for a full-time software engineering position.";
