@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import { useEffect, useState } from "react";
 import Hero from "./pages/Hero";
 import Education from "./pages/Education";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Hero />
       </Box>
       <Education />
+      <About />
     </div>
   );
 }

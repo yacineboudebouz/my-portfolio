@@ -23,6 +23,7 @@ const Education = () => {
           margin: "auto",
           color: "black",
           marginBottom: "20px",
+          fontWeight: "bold",
         }}
       >
         Education
@@ -47,7 +48,7 @@ const Education = () => {
                 gap: "10px",
                 // backgroundColor: "white",
                 alignItems: "center",
-                justifyContent: "center",
+                // justifyContent: "center",
                 boxShadow: "0 0 5px rgba(0, 0, 0, 0.1)",
                 color: "black",
                 width: {
