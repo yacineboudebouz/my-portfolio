@@ -5,6 +5,7 @@ import { Box } from "@mui/material";
 import Header from "./components/Header";
 import { useEffect, useState } from "react";
 import Hero from "./pages/Hero";
+import Education from "./pages/Education";
 
 function App() {
   return (
@@ -26,18 +27,7 @@ function App() {
         <Header />
         <Hero />
       </Box>
-      <Box
-        sx={{
-          height: "100vh",
-          width: "100%",
-          backgroundColor: "black",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <h1 style={{ color: "white" }}>Hello World</h1>
-      </Box>
+      <Education />
     </div>
   );
 }

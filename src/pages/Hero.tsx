@@ -1,7 +1,6 @@
 import { Box, Button, Typography } from "@mui/material";
-import React from "react";
 import { bio } from "../constants/texts";
-import { mainColor } from "../constants/colors";
+
 const Hero = () => {
   return (
     <Box
@@ -88,7 +87,7 @@ const Hero = () => {
       </Box>
       <Box
         sx={{
-          width: "70vw",
+          width: "50%",
           display: {
             xs: "none",
             sm: "block",
