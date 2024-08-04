@@ -10,7 +10,7 @@ export const educations = [
     imgUrl: null,
   },
   {
-    school: "ESTIN",
+    school: "Higher School of Computer Science",
     location: "Amizour, Bejaia",
     date: "2021 - now",
     description:

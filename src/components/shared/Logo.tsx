@@ -11,7 +11,7 @@ const Logo = () => {
     >
       <img
         src={yacineLogo}
-        alt="openai"
+        alt="mylogo"
         width={"40px"}
         height={"40px"}
         className="my-logo"
