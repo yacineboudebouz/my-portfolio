@@ -24,7 +24,9 @@ const Education = () => {
           color: "black",
           marginBottom: "20px",
           fontWeight: "bold",
+          fontFamily: "Poppins",
         }}
+        // className="poppins"
       >
         Education
       </Typography>

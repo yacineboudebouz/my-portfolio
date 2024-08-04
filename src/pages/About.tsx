@@ -27,6 +27,7 @@ const About = () => {
           color: "black",
           marginBottom: "20px",
           fontWeight: "bold",
+          fontFamily: "Poppins",
         }}
       >
         What can i do
@@ -87,6 +88,7 @@ const About = () => {
           marginBottom: "20px",
           fontWeight: "bold",
           marginTop: "20px",
+          fontFamily: "Poppins",
         }}
       >
         My Skills

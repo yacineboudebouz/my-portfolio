@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import Hero from "./pages/Hero";
 import Education from "./pages/Education";
 import About from "./pages/About";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       </Box>
       <Education />
       <About />
+      <Projects />
     </div>
   );
 }

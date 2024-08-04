@@ -18,6 +18,7 @@
 a{
   text-decoration: none;
   color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 .header-nav:hover{
@@ -35,6 +36,10 @@ color: #6EACDA;
   font-size: 15px;
   color: #6EACDA;
   font-family: "Ubuntu", sans-serif;
+}
+
+.poppins{
+  font-family: "Poppins", sans-serif;
 }
 
 .header-nav-sx:hover{

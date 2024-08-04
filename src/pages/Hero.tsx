@@ -50,7 +50,7 @@ const Hero = () => {
           <Button
             sx={{
               width: "100%",
-              padding: "15px",
+              padding: "12px",
               background: "#03346E",
               color: "white",
               borderRadius: "35px",
@@ -67,7 +67,7 @@ const Hero = () => {
           <Button
             sx={{
               width: "100%",
-              padding: "15px",
+              padding: "12px",
               margin: "auto",
               background: "transparent",
               color: "white",
@@ -87,7 +87,7 @@ const Hero = () => {
       </Box>
       <Box
         sx={{
-          width: "50%",
+          width: "80%",
           display: {
             xs: "none",
             sm: "block",

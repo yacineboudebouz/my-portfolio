@@ -18,6 +18,7 @@ import css from "./css.png";
 import javascript from "./javascript.png";
 import github from "./github.png";
 import java from "./java.png";
+import expressStore from "./express_store.png";
 export {
   mainBg,
   yacineLogo,
@@ -39,4 +40,5 @@ export {
   javascript,
   github,
   java,
+  expressStore,
 };
