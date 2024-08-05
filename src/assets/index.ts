@@ -21,6 +21,7 @@ import java from "./java.png";
 import expressStore from "./express_store.png";
 import resimob from "./resimob.png";
 import myPortfolio from "./myportfolio.png";
+import viralbet from "./viralbet.png";
 export {
   mainBg,
   yacineLogo,
@@ -45,4 +46,5 @@ export {
   expressStore,
   resimob,
   myPortfolio,
+  viralbet,
 };

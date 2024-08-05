@@ -1,4 +1,4 @@
-import { expressStore, myPortfolio, resimob } from "../assets";
+import { expressStore, myPortfolio, resimob, viralbet } from "../assets";
 
 export const projects = [
   {
@@ -21,5 +21,12 @@ export const projects = [
       "A simple portfolio website built with React, TypeScript, Material UI and CSS",
     image: myPortfolio,
     techs: ["React", "TypeScript", "CSS", "Material UI"],
+  },
+  {
+    title: "ViralBet",
+    description:
+      "A football betting application with a user-friendly interface and a wide range of leagues and clubs.",
+    image: viralbet,
+    techs: ["Flutter", "Riverpod", "Nest js"],
   },
 ];
