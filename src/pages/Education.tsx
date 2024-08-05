@@ -10,6 +10,7 @@ const Education = () => {
         display: "flex",
         flexDirection: "column",
         backgroundColor: "#f8f8f8",
+        fontFamily: "Oswald",
         padding: {
           xs: "30px 80px",
           sm: "30px 80px",
@@ -68,14 +69,22 @@ const Education = () => {
 
               <Typography
                 variant="h5"
-                sx={{ textAlign: "center" }}
+                sx={{ textAlign: "center", fontFamily: "Oswald" }}
                 color={"#03346E"}
               >
                 {education.school}
               </Typography>
-              <Typography variant="h6">{education.location}</Typography>
-              <Typography variant="body1">{education.date}</Typography>
-              <Typography variant="body2" textAlign={"center"}>
+              <Typography variant="h6" fontFamily={"Oswald"}>
+                {education.location}
+              </Typography>
+              <Typography variant="body1" fontFamily={"Oswald"}>
+                {education.date}
+              </Typography>
+              <Typography
+                variant="body2"
+                fontFamily={"Oswald"}
+                textAlign={"center"}
+              >
                 {education.description}
               </Typography>
             </Box>

@@ -65,6 +65,7 @@ const ProjectCard = (prop: Props) => {
           sx={{
             textAlign: "start",
             color: "#021526",
+            fontFamily: "Oswald",
           }}
         >
           {prop.description}

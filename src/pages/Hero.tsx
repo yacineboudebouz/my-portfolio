@@ -22,7 +22,9 @@ const Hero = () => {
             textShadow: "2px 2px 20px #000",
           }}
         >
-          <span style={{ fontSize: "3rem" }}>Hello, I'm Yacine !</span>
+          <span style={{ fontSize: "3rem", fontFamily: "Poppins" }}>
+            Hello, I'm Yacine !
+          </span>
         </Typography>
         <Typography
           sx={{
@@ -34,7 +36,9 @@ const Hero = () => {
             textShadow: "2px 2px 20px #000",
           }}
         >
-          <span style={{ fontSize: "1.2rem" }}>{bio}</span>
+          <span style={{ fontSize: "1.2rem", fontFamily: "Oswald" }}>
+            {bio}
+          </span>
         </Typography>
         <Box
           sx={{

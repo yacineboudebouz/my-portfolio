@@ -69,10 +69,19 @@ const About = () => {
                   objectFit: "contain",
                 }}
               />
-              <Typography variant="h6" textAlign={"center"} color={"#03346E"}>
+              <Typography
+                variant="h6"
+                textAlign={"center"}
+                color={"#03346E"}
+                fontFamily={"Oswald"}
+              >
                 {info.title}
               </Typography>
-              <Typography variant="body2" textAlign={"center"}>
+              <Typography
+                variant="body2"
+                textAlign={"center"}
+                fontFamily={"Oswald"}
+              >
                 {info.description}
               </Typography>
             </Box>

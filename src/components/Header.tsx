@@ -18,7 +18,7 @@ const Header = () => {
         }}
       >
         <Logo />
-        <Box sx={{ display: "flex" }}>
+        <Box sx={{ display: "flex", alignItems: "center" }}>
           <Box
             sx={{
               display: { xs: "none", sm: "flex" },

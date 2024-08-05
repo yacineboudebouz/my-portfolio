@@ -18,8 +18,8 @@ export const projects = [
   {
     title: "My Portfolio",
     description:
-      "A simple portfolio website built with React, TypeScript and Tailwind CSS",
+      "A simple portfolio website built with React, TypeScript, Material UI and CSS",
     image: myPortfolio,
-    techs: ["React", "TypeScript", "CSS"],
+    techs: ["React", "TypeScript", "CSS", "Material UI"],
   },
 ];
