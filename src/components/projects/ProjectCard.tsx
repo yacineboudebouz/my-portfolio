@@ -1,5 +1,4 @@
 import { Box, Card, CardMedia, Typography } from "@mui/material";
-import React from "react";
 
 interface Props {
   title: string;
@@ -19,7 +18,7 @@ const ProjectCard = (prop: Props) => {
         gap: "10px",
         // backgroundColor: "white",
         // alignItems: "center",
-        // justifyContent: "center",
+        // justifyContent: "start",
         boxShadow: "0 0 5px rgba(0, 0, 0, 0.1)",
         borderRadius: "10px",
         color: "black",
@@ -47,6 +46,9 @@ const ProjectCard = (prop: Props) => {
       <Box
         sx={{
           padding: "0.5rem 1rem",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
         }}
       >
         <Typography

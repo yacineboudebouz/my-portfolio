@@ -19,6 +19,8 @@ import javascript from "./javascript.png";
 import github from "./github.png";
 import java from "./java.png";
 import expressStore from "./express_store.png";
+import resimob from "./resimob.png";
+import myPortfolio from "./myportfolio.png";
 export {
   mainBg,
   yacineLogo,
@@ -41,4 +43,6 @@ export {
   github,
   java,
   expressStore,
+  resimob,
+  myPortfolio,
 };
