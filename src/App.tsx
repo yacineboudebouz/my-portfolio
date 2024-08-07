@@ -18,7 +18,10 @@ function App() {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          height: "100vh",
+          height: {
+            xs: "100%",
+            sm: "100vh",
+          },
           width: "full",
           padding: {
             xs: "20px 40px",

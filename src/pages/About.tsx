@@ -100,7 +100,7 @@ const About = () => {
           fontFamily: "Poppins",
         }}
       >
-        My Skills
+        Techs i use
       </Typography>
       <Box
         sx={{

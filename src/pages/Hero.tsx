@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Button, Stack, Typography } from "@mui/material";
 import { bio } from "../constants/texts";
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
         alignItems: "center",
       }}
     >
-      <Box sx={{ display: "flex", width: "100%", flexDirection: "column" }}>
+      <Stack sx={{ display: "flex", width: "100%", flexDirection: "column" }}>
         <Typography
           sx={{
             textAlign: {
@@ -88,7 +88,7 @@ const Hero = () => {
             Project Source code
           </Button>
         </Box>
-      </Box>
+      </Stack>
       <Box
         sx={{
           width: "80%",
