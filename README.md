@@ -4,8 +4,8 @@ Built using React and Material UI, it's simple and beautifukl no animations, isp
 
 # Showcase
 
-[Image1](./src/assets/readme_assets/image1.png)
+![Image1](./src/assets/readme_assets/image1.png)
 
 ###
 
-[Image2](./src/assets/readme_assets/image2.png)
+![Image2](./src/assets/readme_assets/image2.png)
