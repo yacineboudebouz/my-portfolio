@@ -27,7 +27,7 @@ export const about = [
   },
   {
     icon: frontend,
-    title: "Web Developement",
+    title: "Frontend Developement",
     description:
       "I have experience building websites using React. I have built a few websites for my personal projects.",
   },
