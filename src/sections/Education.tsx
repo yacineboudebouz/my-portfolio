@@ -17,6 +17,7 @@ const Education = () => {
         },
       }}
     >
+      <span id="education" />
       <Typography
         variant="h3"
         sx={{

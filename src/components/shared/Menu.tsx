@@ -33,7 +33,7 @@ export default function PositionedMenu() {
           },
         }}
       >
-        Dashboard
+        Sections
       </Button>
       <Menu
         id="demo-positioned-menu"

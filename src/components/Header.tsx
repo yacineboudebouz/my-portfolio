@@ -26,6 +26,12 @@ const Header = () => {
             }}
           >
             <Typography>
+              <a href="#education" className="header-nav">
+                Education
+              </a>
+            </Typography>
+
+            <Typography>
               <a href="#about" className="header-nav">
                 About
               </a>
@@ -34,12 +40,6 @@ const Header = () => {
             <Typography>
               <a href="#projects" className="header-nav">
                 Projects
-              </a>
-            </Typography>
-
-            <Typography>
-              <a href="#contact" className="header-nav">
-                Contact
               </a>
             </Typography>
           </Box>
@@ -59,6 +59,9 @@ const Header = () => {
             }}
           >
             <GitHubIcon
+              onClick={() => {
+                window.open("https://github.com/yacineboudebouz");
+              }}
               sx={{
                 color: "white",
                 fontSize: "2rem",
@@ -69,6 +72,11 @@ const Header = () => {
               }}
             />
             <LinkedInIcon
+              onClick={() => {
+                window.open(
+                  "https://www.linkedin.com/in/yacine-boudebouz-79b397216/"
+                );
+              }}
               sx={{
                 color: "white",
                 fontSize: "2rem",
@@ -86,6 +94,9 @@ const Header = () => {
                 ":hover": {
                   color: "#03346E",
                 },
+              }}
+              onClick={() => {
+                window.open("https://x.com/YaBoudebouz");
               }}
             />
           </Box>
