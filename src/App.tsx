@@ -7,6 +7,7 @@ import Hero from "./sections/Hero";
 import Education from "./sections/Education";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       <Education />
       <About />
       <Projects />
+      <Footer />
     </div>
   );
 }
