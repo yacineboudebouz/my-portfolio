@@ -52,6 +52,13 @@ export default function PositionedMenu() {
       >
         <MenuItem onClick={handleClose}>
           <Typography>
+            <a href="#education" className="header-nav-sx">
+              Education
+            </a>
+          </Typography>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          <Typography>
             <a href="#about" className="header-nav-sx">
               About
             </a>
@@ -61,13 +68,6 @@ export default function PositionedMenu() {
           <Typography>
             <a href="#projects" className="header-nav-sx">
               Projects
-            </a>
-          </Typography>
-        </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <Typography>
-            <a href="#contact" className="header-nav-sx">
-              Contact
             </a>
           </Typography>
         </MenuItem>
