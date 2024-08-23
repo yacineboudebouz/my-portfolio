@@ -76,6 +76,7 @@ const ProjectCard = (prop: Props) => {
             display: "flex",
             gap: "5px",
             marginTop: "10px",
+            flexWrap: "wrap",
           }}
         >
           {prop.techs.map((tech, index) => {
@@ -89,7 +90,7 @@ const ProjectCard = (prop: Props) => {
                   padding: "0.2rem 0.5rem",
                   borderRadius: "5px",
                   fontSize: "0.6rem",
-                  width: "fit-content",
+                  width: "full",
                   transition: "0.3s",
                   cursor: "auto",
                   ":hover": {

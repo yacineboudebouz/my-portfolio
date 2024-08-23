@@ -46,7 +46,9 @@ const Hero = () => {
             textShadow: "2px 2px 20px #000",
           }}
         >
-          <span style={{ fontSize: "3rem", fontFamily: "Poppins" }}>
+          <span
+            style={{ fontSize: "3rem", fontFamily: "Poppins", color: "white" }}
+          >
             Hello, I'm Yacine !
           </span>
         </Typography>
@@ -60,7 +62,9 @@ const Hero = () => {
             textShadow: "2px 2px 20px #000",
           }}
         >
-          <span style={{ fontSize: "1.2rem", fontFamily: "Oswald" }}>
+          <span
+            style={{ fontSize: "1.2rem", fontFamily: "Oswald", color: "white" }}
+          >
             {bio}
           </span>
         </Typography>
