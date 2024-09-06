@@ -1,9 +1,9 @@
-import { Avatar, Box, Typography } from "@mui/material";
+import { Avatar, Box, Stack, Typography } from "@mui/material";
 import { educations } from "../constants/education";
 
 const Education = () => {
   return (
-    <Box
+    <Stack
       sx={{
         height: "100%",
         width: "full",
@@ -50,7 +50,8 @@ const Education = () => {
                 display: "flex",
                 flexDirection: "column",
                 gap: "10px",
-                // backgroundColor: "white",
+
+                backgroundColor: "#f1f1f1",
                 alignItems: "center",
                 // justifyContent: "center",
                 boxShadow: "0 0 5px rgba(0, 0, 0, 0.1)",
@@ -92,7 +93,7 @@ const Education = () => {
           );
         })}
       </Box>
-    </Box>
+    </Stack>
   );
 };
 

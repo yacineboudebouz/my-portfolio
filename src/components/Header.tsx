@@ -1,6 +1,5 @@
 import { AppBar, Toolbar, Box, Typography } from "@mui/material";
 import Logo from "./shared/Logo";
-import PositionedMenu from "./shared/Menu";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import XIcon from "@mui/icons-material/X";
@@ -13,7 +12,7 @@ const Header = () => {
       <Toolbar
         sx={{
           display: "flex",
-          justifyContent: "space-evenly",
+          justifyContent: { xs: "space-between", sm: "space-evenly" },
           alignItems: "center",
         }}
       >
@@ -42,15 +41,6 @@ const Header = () => {
                 Projects
               </a>
             </Typography>
-          </Box>
-
-          <Box
-            sx={{
-              display: { xs: "flex", sm: "none" },
-              gap: "15px",
-            }}
-          >
-            <PositionedMenu />
           </Box>
 
           <Box

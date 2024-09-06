@@ -50,7 +50,7 @@ const About = () => {
                 display: "flex",
                 flexDirection: "column",
                 gap: "10px",
-                // backgroundColor: "white",
+                backgroundColor: "#f1f1f1",
                 alignItems: "center",
                 // justifyContent: "center",
                 boxShadow: "0 0 5px rgba(0, 0, 0, 0.1)",
