@@ -1,32 +1,8 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
 import { bio } from "../constants/texts";
-import { useEffect, useState } from "react";
 import { myresume } from "../assets";
 
 const Hero = () => {
-  const [cvUrl, setCvUrl] = useState<string>("");
-
-  useEffect(() => {
-    // Replace 'your_cv.pdf' with the actual path to your PDF in the assets folder
-    const cvPath = "./../assets/my_resume.pdf";
-    fetch(cvPath)
-      .then((response) => response.blob())
-      .then((blob) => {
-        const url = URL.createObjectURL(blob);
-        setCvUrl(url);
-      });
-  }, []);
-
-  const handleDownload = () => {
-    if (cvUrl) {
-      const link = document.createElement("a");
-      link.href = cvUrl;
-      link.download = "my_resume.pdf"; // Replace 'your_cv.pdf' with the desired filename
-      link.click();
-      URL.revokeObjectURL(cvUrl);
-    }
-  };
-
   return (
     <Box
       sx={{
