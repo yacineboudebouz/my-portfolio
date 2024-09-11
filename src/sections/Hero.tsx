@@ -1,6 +1,7 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
 import { bio } from "../constants/texts";
 import { useEffect, useState } from "react";
+import { myresume } from "../assets";
 
 const Hero = () => {
   const [cvUrl, setCvUrl] = useState<string>("");
@@ -80,7 +81,9 @@ const Hero = () => {
           }}
         >
           <Button
-            onClick={handleDownload}
+            // onClick={handleDownload}
+            href={myresume}
+            download="Yacine_Boudebouz.pdf"
             sx={{
               width: "100%",
               padding: "12px",
@@ -97,7 +100,11 @@ const Hero = () => {
           >
             Download CV
           </Button>
+
           <Button
+            onClick={() =>
+              window.open("https://github.com/yacineboudebouz/my-portfolio")
+            }
             sx={{
               width: "100%",
               padding: "12px",

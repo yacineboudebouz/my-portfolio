@@ -22,6 +22,7 @@ import expressStore from "./express_store.png";
 import resimob from "./resimob.png";
 import myPortfolio from "./myportfolio.png";
 import viralbet from "./viralbet.png";
+import myresume from "./my_resume.pdf";
 export {
   mainBg,
   yacineLogo,
@@ -47,4 +48,5 @@ export {
   resimob,
   myPortfolio,
   viralbet,
+  myresume,
 };
