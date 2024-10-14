@@ -23,6 +23,8 @@ import resimob from "./resimob.png";
 import myPortfolio from "./myportfolio.png";
 import viralbet from "./viralbet.png";
 import myresume from "./my_resume.pdf";
+import groupie from "./GROUPIE.png";
+import expenses from "./Expenses.png";
 export {
   mainBg,
   yacineLogo,
@@ -49,4 +51,6 @@ export {
   myPortfolio,
   viralbet,
   myresume,
+  groupie,
+  expenses,
 };

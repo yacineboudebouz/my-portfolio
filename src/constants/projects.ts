@@ -1,4 +1,11 @@
-import { expressStore, myPortfolio, resimob, viralbet } from "../assets";
+import {
+  expenses,
+  expressStore,
+  groupie,
+  myPortfolio,
+  resimob,
+  viralbet,
+} from "../assets";
 
 export const projects = [
   {
@@ -28,5 +35,19 @@ export const projects = [
       "A football betting application with a user-friendly interface and a wide range of leagues and clubs.",
     image: viralbet,
     techs: ["Flutter", "Riverpod", "Nest js"],
+  },
+  {
+    title: "Expenses",
+    description:
+      "A simple expense tracker application built with Flutter, Provider and SQflite.",
+    image: expenses,
+    techs: ["Flutter", "Provider", "SQflite"],
+  },
+  {
+    title: "Groupie",
+    description:
+      "A simple chat application with a user-friendly interface and basic features.",
+    image: groupie,
+    techs: ["Flutter", "Firebase", "Cloud Firestore"],
   },
 ];
