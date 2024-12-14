@@ -25,6 +25,7 @@ import viralbet from "./viralbet.png";
 import myresume from "./my_resume.pdf";
 import groupie from "./GROUPIE.png";
 import expenses from "./Expenses.png";
+import bariditrust from "./bariditrust.png";
 export {
   mainBg,
   yacineLogo,
@@ -53,4 +54,5 @@ export {
   myresume,
   groupie,
   expenses,
+  bariditrust,
 };

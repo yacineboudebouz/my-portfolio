@@ -1,4 +1,5 @@
 import {
+  bariditrust,
   expenses,
   expressStore,
   groupie,
@@ -49,5 +50,12 @@ export const projects = [
       "A simple chat application with a user-friendly interface and basic features.",
     image: groupie,
     techs: ["Flutter", "Firebase", "Cloud Firestore"],
+  },
+  {
+    title: "Baridi Trust",
+    description:
+      "A simple website for P2P service  built with React, TypeScript and Express js",
+    image: bariditrust,
+    techs: ["React", "Javascript", "Tailwind css", "Express js", "MongoDB"],
   },
 ];
